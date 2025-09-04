@@ -130,7 +130,7 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://envs.sh/ukT.jpg https://envs.sh/ukT.jpg",
+        "https://envs.sh/iEX.jpg https://envs.sh/iEX.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
@@ -139,7 +139,7 @@ PAYPICS = (
     environ.get("PAYPICS", "https://envs.sh/ekL.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
-    "SUBSCRIPTION", "https://envs.sh/iEk.jpg"
+    "SUBSCRIPTION", "https://i.ibb.co/k69XwnT1/photo-2024-05-08-17-36-45-7546182291244974096.jpg"
 )
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
