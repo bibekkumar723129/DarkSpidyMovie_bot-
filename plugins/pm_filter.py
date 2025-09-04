@@ -1229,7 +1229,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         has_free_trial = await db.check_trial_status(user_id)
         if has_free_trial:
             await query.answer(
-                " ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ʏᴏᴜʀ ꜰʀᴇᴇ ᴛʀɪᴀʟ ᴏɴᴄᴇ !\n\n📌 ᴄʜᴇᴄᴋᴏᴜᴛ ᴏᴜʀ ᴘʟᴀɴꜱ ʙʏ : /plan",
+                " 🤪I Lɪᴋᴇ Yᴏᴜʀ Sᴍᴀʀᴛɴᴇss Bᴜᴛ Dᴏɴ'ᴛ ʙᴇ Oᴠᴇʀ Sᴍᴀʀᴛ🗿 !\n\n☝️ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴄʟᴀɪᴍᴇᴅ ʏᴏᴜʀ ꜰʀᴇᴇ ᴛʀɪᴀʟ ᴏɴᴄᴇ !\n\n📌 ᴄʜᴇᴄᴋᴏᴜᴛ ᴏᴜʀ ᴘʟᴀɴꜱ ʙʏ : /plan",
                 show_alert=True,
             )
             return
@@ -1537,7 +1537,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton(
-                    "ʀᴇᴘᴏ", url="https://github.com/JisshuTG/Jisshu-filter-bot"
+                    "ʀᴇᴘᴏ", url="https://github.com/"
                 )
             ],
             [
