@@ -52,7 +52,7 @@ async def style_buttons(c, m, cb=False):
                 reply_to_message_id=m.id,
             )
         else:
-            await m.reply_text(text="Ente Any Text Eg:- `/font [text]`")
+            await m.reply_text(text="Ente Any Text Eg:- `/font [I Love You Priyanka❤️❤️]`")
     else:
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
